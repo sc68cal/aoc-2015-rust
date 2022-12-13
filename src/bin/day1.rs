@@ -4,9 +4,7 @@ use std::io::Read;
 fn main() {
 
     let mut directions = String::new();
-    let mut end: i32 = 0;
-
-    println!("Input directions");
+    let mut end = 0;
 
     io::stdin().read_to_string(&mut directions)
         .expect("Failed to read");
